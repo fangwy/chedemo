@@ -14,4 +14,10 @@ A new Flutter project.
 3.本demo传值采用base64加密 以pass_info为参数名，解析时需先解密再json字符串转Map
 4.参数介绍：open_type : 打开类型 0.内部界面 1.链接 page_id: 页码 url: 外部链接(webview实现)
 
+# 测试网页
+html目录里 执行run_server.sh可运行测试网页
+打开的链接chedemo://share.chedemo.com/pass_info=eyJvcGVuX3R5cGUiOjAsInBhZ2VfaWQiOjEwMDAwfQ==
+pass_info参数，json对象字符串base64
+json对象参数介绍：open_type : 打开类型 0.内部界面 1.链接 page_id: 页码 url: 外部链接(webview实现)
+
 

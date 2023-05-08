@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0,minimun-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>demo</title>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <a href="javascript:;" class="openApp" id="submit" >
+        打开 APP
+    </a>
+  </div>
+</body>
+
+  <script>
+    window.onload = function(){
+      document.getElementById("submit").addEventListener('click',function(){
+        location.href = "chedemo://share.chedemo.com/pass_info=eyJvcGVuX3R5cGUiOjAsInBhZ2VfaWQiOjEwMDAwfQ==";
+      },false)
+    }
+  </script>
+</body>
+</html>
